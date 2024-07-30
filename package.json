@@ -104,7 +104,7 @@
     "@actions/core": "^1.10.0",
     "@actions/exec": "^1.1.1",
     "@actions/github": "^5.1.1",
-    "@actions/http-client": "^2.0.1",
+    "@actions/http-client": "^2.2.1",
     "@actions/io": "^1.1.2",
     "@actions/tool-cache": "^2.0.1",
     "@octokit/webhooks-definitions": "^3.67.3"
@@ -132,6 +132,9 @@
     "node": "^14.15.0 || ^16.13.0 || ^18.0.0"
   },
   "overrides": {
-    "postcss": "^8.4.31"
+    "postcss": "^8.4.31",
+    "esbuild-linux-arm64": "^0.15.13",
+    "undici": "^5.28.4",
+    "@fastify/busboy": "^2.1.1"
   }
 }
